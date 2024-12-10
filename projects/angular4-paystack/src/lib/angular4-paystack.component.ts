@@ -9,7 +9,8 @@ declare var window: MyWindow;
 
 @Component({
   selector: 'angular4-paystack',
-  template: `<button [ngClass]="class" [ngStyle]="style" (click)="pay()"><ng-content></ng-content></button>`,
+  template: `<button [class]="class" [style]="style" (click)="pay()"><ng-content></ng-content></button>`,
+  standalone: true
 })
 export class Angular4PaystackComponent {
   @Input() key: string;
