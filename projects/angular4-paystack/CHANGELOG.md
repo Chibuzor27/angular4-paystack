@@ -2,10 +2,6 @@
 
 All notable changes to `angular4-paystack` will be documented in this file
 
-## 3.1.5 - 10-12-24
-### Fixed
-  - Peer dependency update for angular 19 support
-
 ## 3.1.4 - 18-03-24
 ### Fixed
   - Fixed peer dependencies version issues
