@@ -11,7 +11,6 @@ declare var window: MyWindow;
 
 @Directive({
   selector: '[angular4-paystack]', // tslint:disable-line
-  standalone: true
 })
 export class Angular4PaystackDirective {
   @Input() key: string;
