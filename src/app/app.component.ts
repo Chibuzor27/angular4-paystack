@@ -6,7 +6,8 @@ import { Angular4PaystackModule, PaystackOptions } from 'angular4-paystack';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  imports: [CommonModule, Angular4PaystackModule]
+  imports: [CommonModule, Angular4PaystackModule],
+  standalone: true
 })
 export class AppComponent implements OnInit {
   public title = 'app';
