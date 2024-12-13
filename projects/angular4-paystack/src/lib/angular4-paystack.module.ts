@@ -8,9 +8,9 @@ import { Angular4PaystackService } from './angular4-paystack.service';
 import { PUBLIC_KEY_TOKEN } from './paystack-token';
 
 @NgModule({
-  imports: [CommonModule, Angular4PaystackComponent, Angular4PaystackDirective, Angular4PaystackEmbedComponent],
+  imports: [CommonModule],
   exports: [Angular4PaystackComponent, Angular4PaystackDirective, Angular4PaystackEmbedComponent],
-  declarations: [],
+  declarations: [Angular4PaystackComponent, Angular4PaystackDirective, Angular4PaystackEmbedComponent],
   providers: [],
 })
 export class Angular4PaystackModule {
