@@ -10,8 +10,7 @@ declare var window: Partial<MyWindow>;
 @Component({
   selector: 'angular4-paystack-embed',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  template: `<div id="paystackEmbedContainer"></div>`,
-  standalone: false
+  template: `<div id="paystackEmbedContainer"></div>`
 })
 
 export class Angular4PaystackEmbedComponent implements OnInit {
